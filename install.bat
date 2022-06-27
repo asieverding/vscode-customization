@@ -1,43 +1,36 @@
-@REM @echo off & setlocal
+@echo off & setlocal
 
-@REM REM Display welcome message and info
-@REM echo\
-@REM echo Welcome to automatic Atom.io installer with packages by Andre Sieverding
-@REM echo\
+REM Display welcome message and info
+echo\
+echo Welcome to automatic Visual Studio Code installer with extensions by Andre Sieverding
+echo\
 
-@REM REM Get absolute directory path of current file and remove last character (backslash)
-@REM SET dir=%~dp0
-@REM SET dir=%dir:~0,-1%
+REM Get absolute directory path of current file and remove last character (backslash)
+SET dir=%~dp0
+SET dir=%dir:~0,-1%
 
-@REM REM Get home dir path
-@REM SET home=%systemdrive%%homepath%
+REM Get absolute directory path of vs code installation
+SET vscode_dir=%systemdrive%%homepath%\AppData\Roaming\Code\User
 
-@REM REM Change into ~/.atom directory
-@REM cd %home%\.atom
+REM Copy all configurations
+echo Copying files...
+echo\
+copy "%dir%\vscode\settings.json" "%vscode_dir%\settings.json"
+echo\
 
-@REM REM Install apm packages
-@REM echo Installing Atom.io packages...
-@REM echo\
-@REM call apm install --packages-file %dir%\atom\package-list.txt
-@REM echo\
+REM Install vscode extensions
+echo Installing Visual Studio Code extensions...
+echo\
+SET extensions_list=%dir%\vscode\extensions-list.txt
+for /f "usebackq tokens=*" %%a in (%extensions_list%) do (
+    code --install-extension %%a
+)
+echo\
 
-@REM REM Change into atom-io-customization/atom directory
-@REM cd %dir%\atom
+echo Done! :)
+echo\
+echo Enjoy your customized Visual Studio Code Code-Editor!
+echo\
 
-@REM REM Copy all configurations into current directory
-@REM echo Copying files...
-@REM echo\
-
-@REM for %%f in (*.cson *.coffee *.txt *.json *.less .htmlhintrc .jshintrc .sass-lint.yml .gitignore) do (
-@REM 	echo Copying: %%f -^> %home%\.atom\%%f
-@REM 	copy %%f %home%\.atom\%%f > nul
-@REM )
-
-@REM echo\
-@REM echo Done! :)
-@REM echo\
-@REM echo Enjoy your customized Atom.io Code-Editor!
-@REM echo\
-
-@REM pause
-@REM endlocal
+pause
+endlocal

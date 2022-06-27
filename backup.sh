@@ -11,7 +11,7 @@ dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 vscode_dir="${HOME}/Library/Application Support/Code/User"
 
 # Update extensions-list
-echo "Updating package-list...\n"
+echo "Updating extensions-list...\n"
 code --list-extensions --show-versions > vscode/extensions-list.txt
 
 # Copy all configurations
