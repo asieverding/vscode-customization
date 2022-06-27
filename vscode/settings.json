@@ -1,0 +1,24 @@
+{
+    "editor.insertSpaces": false,
+    "workbench.colorTheme": "One Dark Flatland Monokai",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#528cff",
+        "statusBar.foreground" : "#ffffff",
+        "statusBar.debuggingBackground": "#e08300",
+        "statusBar.debuggingForeground": "#ffffff",
+        "statusBar.noFolderBackground" : "#528cff",
+        "statusBar.noFolderForeground" : "#ffffff",
+        "statusBarItem.activeBackground": "#ffffff30",
+        "statusBarItem.hoverBackground": "#ffffff30"
+    },
+    "ShortcutMenuBar.compareWithSaved": true,
+    "ShortcutMenuBar.openFilesList": false,
+    "ShortcutMenuBar.openSettings": true,
+    "ShortcutMenuBar.showCommands": true,
+    "ShortcutMenuBar.startDebugging": true,
+    "ShortcutMenuBar.toggleActivityBar": true,
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true
+}
