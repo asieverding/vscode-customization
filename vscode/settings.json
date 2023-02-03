@@ -20,5 +20,7 @@
     "ShortcutMenuBar.toggleActivityBar": true,
     "atomKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true
+    "editor.formatOnPaste": true,
+    "git.confirmSync": false,
+    "editor.stickyScroll.enabled": true
 }
