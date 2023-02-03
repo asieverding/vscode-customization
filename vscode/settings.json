@@ -22,5 +22,6 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
     "git.confirmSync": false,
-    "editor.stickyScroll.enabled": true
+    "editor.stickyScroll.enabled": true,
+    "http.proxyStrictSSL": false
 }
