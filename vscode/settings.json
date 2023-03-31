@@ -51,5 +51,6 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "git.suggestSmartCommit": false,
-    "svgPreview.autoOpen": false
+    "svgPreview.autoOpen": false,
+    "http.proxyStrictSSL": false
 }
