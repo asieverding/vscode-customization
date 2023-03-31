@@ -3,12 +3,12 @@
     "workbench.colorTheme": "One Dark Flatland Monokai",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
-        "statusBar.background" : "#528cff",
-        "statusBar.foreground" : "#ffffff",
+        "statusBar.background": "#528cff",
+        "statusBar.foreground": "#ffffff",
         "statusBar.debuggingBackground": "#e08300",
         "statusBar.debuggingForeground": "#ffffff",
-        "statusBar.noFolderBackground" : "#528cff",
-        "statusBar.noFolderForeground" : "#ffffff",
+        "statusBar.noFolderBackground": "#528cff",
+        "statusBar.noFolderForeground": "#ffffff",
         "statusBarItem.activeBackground": "#ffffff30",
         "statusBarItem.hoverBackground": "#ffffff30"
     },
@@ -23,5 +23,33 @@
     "editor.formatOnPaste": true,
     "git.confirmSync": false,
     "editor.stickyScroll.enabled": true,
-    "http.proxyStrictSSL": false
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.startupEditor": "none",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "bicep.enableSurveys": false,
+    "githubPullRequests.pullBranch": "never",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "git.suggestSmartCommit": false,
+    "svgPreview.autoOpen": false
 }
