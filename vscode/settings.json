@@ -27,16 +27,16 @@
     "workbench.startupEditor": "none",
     "typescript.updateImportsOnFileMove.enabled": "never",
     "[json]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[html]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[jsonc]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[scss]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[yaml]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
@@ -45,12 +45,13 @@
     "githubPullRequests.pullBranch": "never",
     "javascript.updateImportsOnFileMove.enabled": "never",
     "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "git.suggestSmartCommit": false,
     "svgPreview.autoOpen": false,
-    "http.proxyStrictSSL": false
+    "nyanMode.nyanColor": "#ffffff",
+    "nyanMode.nyanLength": 20
 }
