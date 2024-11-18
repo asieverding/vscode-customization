@@ -41,6 +41,9 @@
 	"[yaml]": {
 		"editor.defaultFormatter": "redhat.vscode-yaml"
 	},
+	"[marko]": {
+		"editor.defaultFormatter": "buster.marko-beautify"
+	},
 	"bicep.enableSurveys": false,
 	"githubPullRequests.pullBranch": "never",
 	"javascript.updateImportsOnFileMove.enabled": "never",
