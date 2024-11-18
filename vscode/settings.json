@@ -1,69 +1,69 @@
 {
-    "editor.insertSpaces": false,
-    "workbench.colorTheme": "One Dark Flatland Monokai",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#528cff",
-        "statusBar.foreground": "#ffffff",
-        "statusBar.debuggingBackground": "#e08300",
-        "statusBar.debuggingForeground": "#ffffff",
-        "statusBar.noFolderBackground": "#528cff",
-        "statusBar.noFolderForeground": "#ffffff",
-        "statusBarItem.activeBackground": "#ffffff30",
-        "statusBarItem.hoverBackground": "#ffffff30"
-    },
-    "ShortcutMenuBar.compareWithSaved": true,
-    "ShortcutMenuBar.openFilesList": false,
-    "ShortcutMenuBar.openSettings": true,
-    "ShortcutMenuBar.showCommands": true,
-    "ShortcutMenuBar.startDebugging": true,
-    "ShortcutMenuBar.toggleActivityBar": true,
-    "atomKeymap.promptV3Features": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
-    "git.confirmSync": false,
-    "editor.stickyScroll.enabled": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.startupEditor": "none",
-    "typescript.updateImportsOnFileMove.enabled": "never",
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[scss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[yaml]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml"
-    },
-    "bicep.enableSurveys": false,
-    "githubPullRequests.pullBranch": "never",
-    "javascript.updateImportsOnFileMove.enabled": "never",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "git.suggestSmartCommit": false,
-    "svgPreview.autoOpen": false,
-    "nyanMode.nyanColor": "#ffffff",
-    "nyanMode.nyanLength": 20,
-    "prettier.bracketSameLine": true,
-    "prettier.jsxSingleQuote": true,
-    "prettier.printWidth": 120,
-    "prettier.semi": false,
-    "prettier.singleAttributePerLine": true,
-    "prettier.singleQuote": true,
-    "prettier.tabWidth": 4,
-    "prettier.trailingComma": "all",
-    "prettier.useTabs": true,
-    "http.proxyAuthorization": null,
-    "http.proxyStrictSSL": false,
-    "github.copilot.editor.enableAutoCompletions": true
+	"editor.insertSpaces": false,
+	"workbench.colorTheme": "One Dark Flatland Monokai",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorCustomizations": {
+		"statusBar.background": "#528cff",
+		"statusBar.foreground": "#ffffff",
+		"statusBar.debuggingBackground": "#e08300",
+		"statusBar.debuggingForeground": "#ffffff",
+		"statusBar.noFolderBackground": "#528cff",
+		"statusBar.noFolderForeground": "#ffffff",
+		"statusBarItem.activeBackground": "#ffffff30",
+		"statusBarItem.hoverBackground": "#ffffff30"
+	},
+	"ShortcutMenuBar.compareWithSaved": true,
+	"ShortcutMenuBar.openFilesList": false,
+	"ShortcutMenuBar.openSettings": true,
+	"ShortcutMenuBar.showCommands": true,
+	"ShortcutMenuBar.startDebugging": true,
+	"ShortcutMenuBar.toggleActivityBar": true,
+	"atomKeymap.promptV3Features": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.formatOnPaste": true,
+	"git.confirmSync": false,
+	"editor.stickyScroll.enabled": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"workbench.startupEditor": "none",
+	"typescript.updateImportsOnFileMove.enabled": "never",
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[yaml]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"bicep.enableSurveys": false,
+	"githubPullRequests.pullBranch": "never",
+	"javascript.updateImportsOnFileMove.enabled": "never",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"git.suggestSmartCommit": false,
+	"svgPreview.autoOpen": false,
+	"nyanMode.nyanColor": "#ffffff",
+	"nyanMode.nyanLength": 20,
+	"prettier.bracketSameLine": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.printWidth": 120,
+	"prettier.semi": false,
+	"prettier.singleAttributePerLine": true,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 4,
+	"prettier.trailingComma": "all",
+	"prettier.useTabs": true,
+	"http.proxyAuthorization": null,
+	"http.proxyStrictSSL": false,
+	"github.copilot.editor.enableAutoCompletions": true
 }
