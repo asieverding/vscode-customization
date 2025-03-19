@@ -68,5 +68,7 @@
 	"prettier.useTabs": true,
 	"http.proxyAuthorization": null,
 	"http.proxyStrictSSL": false,
-	"github.copilot.editor.enableAutoCompletions": true
+	"github.copilot.editor.enableAutoCompletions": true,
+	"workbench.editor.editorActionsLocation": "titleBar",
+	"@azure.argTenant": ""
 }
