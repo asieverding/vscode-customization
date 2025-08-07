@@ -25,7 +25,6 @@
 	"editor.stickyScroll.enabled": true,
 	"liveServer.settings.donotShowInfoMsg": true,
 	"workbench.startupEditor": "none",
-	"typescript.updateImportsOnFileMove.enabled": "never",
 	"[json]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
@@ -70,5 +69,8 @@
 	"http.proxyStrictSSL": false,
 	"github.copilot.editor.enableAutoCompletions": true,
 	"workbench.editor.editorActionsLocation": "titleBar",
-	"@azure.argTenant": ""
+	"@azure.argTenant": "",
+	"github.copilot.selectedCompletionModel": "",
+	"NyanCat.name": "nyan",
+	"github.copilot.nextEditSuggestions.enabled": true
 }
