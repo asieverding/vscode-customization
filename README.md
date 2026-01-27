@@ -8,6 +8,36 @@ This Visual Studio Code setup includes a fully IDE for Web development with Node
 ### Requirements
 
 - Visual Studio Code
+- SQLite3 command line tool (for Activity Bar backup/restore)
+
+#### Installing SQLite3
+
+##### Windows
+
+```shell
+winget install SQLite.SQLite
+```
+
+##### Mac OS X
+
+SQLite3 is pre-installed on macOS. If needed, you can update it via Homebrew:
+
+```shell
+brew install sqlite3
+```
+
+##### Linux
+
+```shell
+# Debian/Ubuntu
+sudo apt-get install sqlite3
+
+# Fedora/RHEL
+sudo dnf install sqlite
+
+# Arch Linux
+sudo pacman -S sqlite
+```
 
 ### Installation Guide
 
@@ -50,6 +80,13 @@ Execute `backup.bat`
 ##### Configuration files for Visual Studio Code
 
 ⇒ [Show files](https://github.com/Teddy95/vscode-customization/tree/master/vscode)
+
+**Backed up files:**
+- `settings.json` - VS Code settings and preferences
+- `extensions-list.txt` - List of installed extensions
+- `activity-bar.json` - Activity Bar configuration (visible/hidden items and order)
+
+**Note:** The Activity Bar configuration is extracted from VS Code's SQLite database (`state.vscdb`) using the `workbench.activity.pinnedViewlets2` key. This ensures only the Activity Bar settings are backed up, avoiding machine-specific data.
 
 ### License
 

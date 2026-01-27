@@ -19,6 +19,11 @@ echo Copying files...
 echo\
 copy "%vscode_dir%\settings.json" "%dir%\vscode\settings.json"
 
+REM Export Activity Bar configuration from SQLite database
+echo Exporting Activity Bar configuration...
+echo\
+sqlite3 "%vscode_dir%\globalStorage\state.vscdb" "SELECT value FROM ItemTable WHERE key = 'workbench.activity.pinnedViewlets2';" > "%dir%\vscode\activity-bar.json" 2>nul
+
 REM Update extensions-list
 echo Updating extensions-list...
 echo\

@@ -22,5 +22,11 @@ echo "\n"
 echo "Copying files...\n"
 cp "${dir}/vscode/settings.json" "${vscode_dir}/settings.json"
 
+# Import Activity Bar configuration into SQLite database
+if [ -f "${dir}/vscode/activity-bar.json" ]; then
+    echo "Importing Activity Bar configuration...\n"
+    sqlite3 "${vscode_dir}/globalStorage/state.vscdb" "UPDATE ItemTable SET value = '$(cat ${dir}/vscode/activity-bar.json)' WHERE key = 'workbench.activity.pinnedViewlets2';" 2>/dev/null || true
+fi
+
 # Done! :)
 echo "\nDone ✅\nEnjoy your customized Visual Studio Code Editor!\n"

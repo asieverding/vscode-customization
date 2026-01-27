@@ -18,5 +18,9 @@ code --list-extensions --show-versions > vscode/extensions-list.txt
 echo "Copying files...\n"
 cp "${vscode_dir}/settings.json" "${dir}/vscode/settings.json"
 
+# Export Activity Bar configuration from SQLite database
+echo "Exporting Activity Bar configuration...\n"
+sqlite3 "${vscode_dir}/globalStorage/state.vscdb" "SELECT value FROM ItemTable WHERE key = 'workbench.activity.pinnedViewlets2';" > "${dir}/vscode/activity-bar.json" 2>/dev/null || true
+
 # Done! :)
 echo "\nDone ✅\n"

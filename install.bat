@@ -16,6 +16,15 @@ REM Copy all configurations
 echo Copying files...
 echo\
 copy "%dir%\vscode\settings.json" "%vscode_dir%\settings.json"
+
+REM Import Activity Bar configuration into SQLite database
+if exist "%dir%\vscode\activity-bar.json" (
+    echo Importing Activity Bar configuration...
+    echo\
+    for /f "delims=" %%a in (%dir%\vscode\activity-bar.json) do (
+        sqlite3 "%vscode_dir%\globalStorage\state.vscdb" "UPDATE ItemTable SET value = '%%a' WHERE key = 'workbench.activity.pinnedViewlets2';" 2>nul
+    )
+)
 echo\
 
 REM Install vscode extensions
